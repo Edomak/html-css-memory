@@ -42,25 +42,148 @@ header {
     background-repeat: repeat;
     background-size: contain;
     border-radius: 15px;
+    border: 2px solid lightgray;
  }
-
- .card > .turned-card-content {
+/* baloon */
+ .card > .card-content > .baloon {
      height: 100%;
      background-color: white;
      border-radius: 15px;
      text-align: center;
      padding: 10px;
+     display: none;
  }
 
- .card > .turned-card-content img {
+ .card > .card-content > .baloon img {
      width: 80%;
  }
 
- .card > .turned-card-content h3 {
+ .card > .card-content > .baloon h3 {
      text-align: center;
      font-size: 35px;
      color: purple;
 }
+
+.card:hover > .card-content > .baloon {
+    display: block;
+
+}
+/* bicycle */
+.card > .card-content > .bicycle {
+    height: 100%;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+    display: none;
+}
+
+.card > .card-content > .bicycle img {
+    width: 80%;
+}
+
+.card > .card-content > .bicycle h3 {
+    text-align: center;
+    font-size: 35px;
+    color: red;
+}
+
+.card:hover > .card-content > .bicycle {
+   display: block;
+}
+/* ship */
+.card > .card-content > .ship {
+    height: 100%;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+    display: none;
+}
+
+.card > .card-content > .ship img {
+    width: 80%;
+}
+
+.card > .card-content > .ship h3 {
+    text-align: center;
+    font-size: 35px;
+    color: lightgreen;
+}
+
+.card:hover > .card-content > .ship {
+   display: block;
+}
+/* submarine */
+.card > .card-content > .submarine {
+    height: 100%;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+    display: none;
+}
+
+.card > .card-content > .submarine img {
+    width: 80%;
+}
+
+.card > .card-content > .submarine h3 {
+    text-align: center;
+    font-size: 35px;
+    color: lightsalmon;
+}
+
+.card:hover > .card-content > .submarine {
+   display: block;
+}
+/* tractor */
+.card > .card-content > .tractor {
+    height: 100%;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+    display: none;
+}
+
+.card > .card-content > .tractor img {
+    width: 80%;
+}
+
+.card > .card-content > .tractor h3 {
+    text-align: center;
+    font-size: 35px;
+    color: peru;
+}
+
+.card:hover > .card-content > .tractor {
+   display: block;
+}
+/* tram */
+.card > .card-content > .tram {
+    height: 100%;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+    display: none;
+}
+
+.card > .card-content > .tram img {
+    width: 80%;
+}
+
+.card > .card-content > .tram h3 {
+    text-align: center;
+    font-size: 35px;
+    color: lightskyblue;
+}
+
+.card:hover > .card-content > .tram {
+   display: block;
+}
+
 /* footer */
 footer {
     height: 50px;
