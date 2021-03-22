@@ -48,9 +48,8 @@ header {
     border: 2px solid lightgray;
 }
  
-/* baloon */
+/* baloon */ 
  .card > .card-content > .baloon {
-     display: none;
      height: 100%;
      background-color: white;
      border-radius: 15px;
@@ -58,19 +57,38 @@ header {
      padding: 10px;
     }
 
- .card > .card-content > .baloon img {
+.card > .card-content > .baloon img {
      width: 80%;
     }
 
- .card > .card-content > .baloon h3 {
+.card > .card-content > .baloon h3 {
      text-align: center;
      font-size: 35px;
      color: purple;
     }
 
-.card:hover > .card-content > .baloon {
-    display: block;
-}
+.card > .card-content > .baloon-hidden {
+        display: none;
+        height: 100%;
+        background-color: white;
+        border-radius: 15px;
+        text-align: center;
+        padding: 10px;
+    }
+   
+.card > .card-content > .baloon-hidden img {
+        width: 80%;
+    }
+   
+.card > .card-content > .baloon-hidden h3 {
+        text-align: center;
+        font-size: 35px;
+        color: purple;
+    }
+
+.card:hover > .card-content > .baloon-hidden {
+        display: block;
+    }
 
 /* bicycle */
 .card > .card-content > .bicycle {
