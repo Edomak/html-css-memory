@@ -14,7 +14,9 @@
 body {
     background-color: lightblue;
     font-family: 'Nerko One', cursive;
+    perspective: 500px; 
 }
+
 /* Header */
 header {
     height: 100px;
@@ -23,6 +25,7 @@ header {
     text-align: center;
     color: whitesmoke;
 }
+
 /* Main */
 .cards-container {
     width: 70%;
@@ -43,39 +46,40 @@ header {
     background-size: contain;
     border-radius: 15px;
     border: 2px solid lightgray;
- }
+}
+ 
 /* baloon */
  .card > .card-content > .baloon {
+     display: none;
      height: 100%;
      background-color: white;
      border-radius: 15px;
      text-align: center;
      padding: 10px;
-     display: none;
- }
+    }
 
  .card > .card-content > .baloon img {
      width: 80%;
- }
+    }
 
  .card > .card-content > .baloon h3 {
      text-align: center;
      font-size: 35px;
      color: purple;
-}
+    }
 
 .card:hover > .card-content > .baloon {
     display: block;
-
 }
+
 /* bicycle */
 .card > .card-content > .bicycle {
+    display: none;
     height: 100%;
     background-color: white;
     border-radius: 15px;
     text-align: center;
     padding: 10px;
-    display: none;
 }
 
 .card > .card-content > .bicycle img {
@@ -91,14 +95,15 @@ header {
 .card:hover > .card-content > .bicycle {
    display: block;
 }
+
 /* ship */
 .card > .card-content > .ship {
+    display: none;
     height: 100%;
     background-color: white;
     border-radius: 15px;
     text-align: center;
     padding: 10px;
-    display: none;
 }
 
 .card > .card-content > .ship img {
@@ -114,14 +119,15 @@ header {
 .card:hover > .card-content > .ship {
    display: block;
 }
+
 /* submarine */
 .card > .card-content > .submarine {
+    display: none;
     height: 100%;
     background-color: white;
     border-radius: 15px;
     text-align: center;
     padding: 10px;
-    display: none;
 }
 
 .card > .card-content > .submarine img {
@@ -137,14 +143,15 @@ header {
 .card:hover > .card-content > .submarine {
    display: block;
 }
+
 /* tractor */
 .card > .card-content > .tractor {
+    display: none;
     height: 100%;
     background-color: white;
     border-radius: 15px;
     text-align: center;
     padding: 10px;
-    display: none;
 }
 
 .card > .card-content > .tractor img {
@@ -160,14 +167,15 @@ header {
 .card:hover > .card-content > .tractor {
    display: block;
 }
+
 /* tram */
 .card > .card-content > .tram {
+    display: none;
     height: 100%;
     background-color: white;
     border-radius: 15px;
     text-align: center;
     padding: 10px;
-    display: none;
 }
 
 .card > .card-content > .tram img {
@@ -191,5 +199,5 @@ footer {
 }
 
 footer > p {
-    font-size: 20px;
+    font-size: 30px;
 }
